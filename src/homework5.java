@@ -9,14 +9,14 @@ public class homework5 {
             case "A":
             case "B":
             case "D":
-                System.out.println("YANLIS CEVAP");
+                System.out.println("wrong answer");
                 break;
             case "c":
-                System.out.println("dogru cevap");
+                System.out.println("right answer");
                 break;
             default:
                 System.out.println("invalid" +
-                        "cevap");
+                        "answer");
         }
     }
 }
