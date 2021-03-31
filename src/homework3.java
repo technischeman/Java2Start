@@ -7,16 +7,16 @@ public class homework3 {
         int number=input.nextInt();
         switch (number){
             case 9:
-                System.out.println("bir basanakli en büyük");
+                System.out.println("Largest number with 1 digit");
                 break;
             case 99:
-                System.out.println("iki basamakli en büyük");
+                System.out.println(" Largest number with 2 digit");
                 break;
             case 999:
-                System.out.println("üc basamakli en büyük");
+                System.out.println("Largest number with 3 digit");
                 break;
             default:
-                System.out.println("yorum yok");
+                System.out.println("wrong choice");
         }
 
     }
